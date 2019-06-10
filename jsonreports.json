@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for Headphones",
+        "description": "",
+        "id": "product-search;search-for-headphones",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20903027600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should login",
+            "match": {
+              "location": "stepdeff1.user_should_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369827800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search \"Headphones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Headphones\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdeff1.user_search(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 393536300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should logout",
+            "match": {
+              "location": "stepdeff1.user_should_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Search for Laptop",
+        "description": "",
+        "id": "product-search;search-for-laptop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16390610700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should login",
+            "match": {
+              "location": "stepdeff1.user_should_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 864687200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Search \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdeff1.user_Search(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 334593300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should logout",
+            "match": {
+              "location": "stepdeff1.user_should_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product search",
+    "description": "",
+    "id": "product-search",
+    "keyword": "Feature",
+    "uri": "Features/sample2.feature",
+    "tags": []
+  }
+]

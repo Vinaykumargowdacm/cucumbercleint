@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="44.631721">
+<testcase classname="Product search" name="Search for Headphones" time="27.213298">
+<system-out><![CDATA[Given User should login.....................................................passed
+When user search "Headphones"...............................................passed
+Then User should logout.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product search" name="Search for Laptop" time="17.418423">
+<system-out><![CDATA[Given User should login.....................................................passed
+When user Search "Laptop"...................................................passed
+Then User should logout.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

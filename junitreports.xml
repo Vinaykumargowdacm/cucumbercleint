@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="66.53032">
+<testcase classname="multiple data in testmeapp" name="Search different items" time="25.589235">
+<system-out><![CDATA[Given User performs login...................................................passed
+When Search for different "Headphones"......................................passed
+Then do nothing.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="multiple data in testmeapp" name="Search different items 2" time="18.566855">
+<system-out><![CDATA[Given User performs login...................................................passed
+When Search for different "Travel Kit"......................................passed
+Then do nothing.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="multiple data in testmeapp" name="Search different items 3" time="22.37423">
+<system-out><![CDATA[Given User performs login...................................................passed
+When Search for different "Laptop"..........................................passed
+Then do nothing.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
